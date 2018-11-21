@@ -28,7 +28,7 @@ void loop() {
 }
 
 void ignite() {
-  for (int i = 0; i < 500; i++) {
+  for (int r = 0; r < 500; r++) {
     int intensity = sparkle(155);
     for (int i = intensity; i >= 0; i--) {
       analogWrite(fireplaceLed, i);
